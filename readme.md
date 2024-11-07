@@ -1,4 +1,4 @@
-# Nette Inertia.js Extension
+# WIP: Nette Inertia.js Extension
 
 [![Build Status](https://github.com/PaznerA/nette-inertia-js/workflows/CI/badge.svg)](https://github.com/PaznerA/nette-inertia-js/actions)
 [![Downloads this Month](https://img.shields.io/packagist/dm/PaznerA/nette-inertia-js.svg)](https://packagist.org/packages/PaznerA/nette-inertia-js)
@@ -25,15 +25,15 @@ Modern JavaScript framework integration for Nette using Inertia.js
 
 ## Installation
 
-1. Install via Composer:
+1. Install via Composer(TODO):
 ```bash
-composer require acme/nette-inertia
+composer require paznera/nette-inertia-js
 ```
 
 2. Register extension in your config.neon:
 ```neon
 extensions:
-    inertia: Acme\Inertia\InertiaExtension
+    inertia: PaznerA\NetteInertia\InertiaExtension
 
 inertia:
     framework: vue  # options: vue, react, svelte
@@ -72,7 +72,7 @@ yarn add @inertiajs/svelte
 1. Create a base presenter:
 
 ```php
-abstract class BasePresenter extends Acme\Inertia\InertiaPresenter
+abstract class BasePresenter extends PaznerA\NetteInertia\InertiaPresenter
 {
     // Your base presenter logic
 }
