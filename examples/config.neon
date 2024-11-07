@@ -1,0 +1,9 @@
+extensions:
+    inertia: Acme\Inertia\InertiaExtension
+
+inertia:
+    framework: vue  # options: vue, react, svelte
+    ssr: false
+    rootView: App/Views/Root
+    version: null
+    testing: false

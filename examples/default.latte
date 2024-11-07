@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nette + Inertia.js Application</title>
+
+    {block head}{/block}
+    
+    <!-- Framework specific bundles -->
+    {if $inertia->framework === 'vue'}
+        <script type="module" src="/dist/vue.js"></script>
+    {elseif $inertia->framework === 'react'}
+        <script type="module" src="/dist/react.js"></script>
+    {else}
+        <script type="module" src="/dist/svelte.js"></script>
+    {/if}
+</head>
+<body>
+    {inertia}
+    
+    {block scripts}{/block}
+</body>
+</html>

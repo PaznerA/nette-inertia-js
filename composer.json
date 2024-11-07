@@ -1,0 +1,53 @@
+{
+    "name": "paznera/nette-inertia-js",
+    "description": "Modern JavaScript framework integration for Nette using Inertia.js",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleš Pázner",
+            "email": "pazny.develop@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "nette/application": "^3.1",
+        "nette/di": "^3.1",
+        "nette/schema": "^1.2",
+        "nette/utils": "^3.2"
+    },
+    "require-dev": {
+        "nette/tester": "^2.4",
+        "phpstan/phpstan": "^1.8",
+        "phpstan/phpstan-nette": "^1.1",
+        "phpstan/phpstan-strict-rules": "^1.4",
+        "phpunit/phpunit": "^9.5",
+        "slevomat/coding-standard": "^8.0",
+        "tracy/tracy": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaznerA\\NetteInertia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PaznerA\\NetteInertia\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit",
+        "phpstan": "phpstan analyse",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
