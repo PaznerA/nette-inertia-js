@@ -48,6 +48,10 @@
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/phpstan-nette": true,
+            "phpstan/phpstan-strict-rules": true
+        }
     }
 }
