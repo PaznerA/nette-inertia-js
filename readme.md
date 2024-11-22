@@ -1,4 +1,9 @@
 # WIP: Nette Inertia.js Extension
+WARNING: Development moved into monorepo with demo app. Nette extension composer and npm package will be separated into this one after some polishing.
+
+SEE: [Demo app](https://github.com/PaznerA/nette-inertia-react-demo/tree/feat/complex-component/vim-game)
+
+-----
 
 [![Build Status](https://github.com/PaznerA/nette-inertia-js/workflows/CI/badge.svg)](https://github.com/PaznerA/nette-inertia-js/actions)
 [![Downloads this Month](https://img.shields.io/packagist/dm/PaznerA/nette-inertia-js.svg)](https://packagist.org/packages/PaznerA/nette-inertia-js)
